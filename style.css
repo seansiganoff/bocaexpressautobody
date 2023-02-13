@@ -1,0 +1,776 @@
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+ * {
+    font-family: "Lato", Sans-serif;
+    box-sizing: border-box;
+}
+
+.favicon {
+    height: 40px;
+    width: 40px;
+}
+
+
+.nav-bar {
+    width: 100%;;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 254, 254);
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    border-bottom: solid 3px  rgb(179, 179, 179);
+}
+
+.nav-bar-top {
+    background: rgb(11, 181, 211);
+    width: 100%;
+    padding: 10px 0;
+}
+.nav-bar-top h5 {
+    margin: 0;
+}
+.nav-bar h3 {
+    margin: 0;
+    padding: 15px;
+    font-weight: 100;
+    font-size: medium;
+    word-break: keep-all;
+}
+
+.nav-section {
+    font-size: xx-small;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-section a {
+    text-decoration: none;
+    font-size: 1.3vh;
+    word-break: break-all;
+    margin: 14px;
+}
+
+.nav-top {
+    margin: 0;
+    justify-content: space-between;
+}
+.nav-logo {
+    left: 35%;
+    width: 25%;
+    padding-left: 17%;
+}
+.nav-number {
+    width: 25%;
+    padding-right: 17%;
+    word-break: break-all;
+}
+
+
+.header-container {
+    margin: 0;
+    width: 100%;
+    background: url('./images/audi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-overlay {
+    margin: auto;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.648);
+    padding: 2rem 2rem 4rem 2rem;
+    box-shadow: 0px 30px 58px -20px;
+}
+
+.heading-text {
+    font-weight: 600;
+    text-align: center;
+    color: rgb(11, 181, 211);
+    margin: 30px auto;
+    font-size: 4vw;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.company-logo {
+    margin: 0;
+    height: 30%;
+    width: 80%;
+    max-width: 800px;
+}
+.header-overlay H2 {
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    font-size: small;
+}
+.header-overlay h3 {
+    margin: 0;
+    color: rgb(11, 181, 211);
+    font-weight: 100;
+    overflow: hidden;
+    font-size: 6vw;
+    
+}
+
+
+
+
+
+
+.why-choose-container {
+    color: rgb(115, 115, 115);
+    font-family: 700;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.why-choose-overlay {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.banner-sub-container-heading {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.banner-sub-container-heading h5 {
+    
+    font-weight: 600;
+    text-align: center;
+    color: rgb(11, 181, 211);
+    font-size: 4vw;
+    word-break: keep-all;
+    text-align: center;
+}
+
+.why-choose h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 12px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.banner-sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+
+.banner-inner-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.why-img {
+    height: 100px;
+    width: 100px;
+    margin: 41px auto;
+}
+
+.header-overlay h5 {
+    margin: auto;
+    padding: 3%;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+.about-us {
+    margin: 0;
+    text-align: left;
+}
+
+.about-us-text-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.about-us-text-container h3 {
+    margin: 0;
+    display: flex;
+    color: rgb(11, 181, 211);
+    word-break: keep-all;
+    font-size: 4vh;
+    padding-top: 11%;
+    padding-bottom: 3%;
+    font-weight: 100;
+}
+
+.about-us p {
+    margin: 0;
+    font-size: 17px;
+    word-break: keep-all;
+    padding-bottom: 10%;
+}
+
+
+
+.logo-container {
+    background-color: rgb(11, 181, 211);
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    box-shadow: 0px 6px 75px -9px;
+}
+
+.logo-container img {
+    height: 20vw;
+    width: 27vw;
+    padding: 15px;
+    max-width: 200px;
+    max-height: 140px;
+}
+
+
+
+
+
+.faq-container {
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    width: 100%;
+    
+}
+
+.faq-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding: 3%;
+    margin: 0;
+}
+
+.faq {
+    margin: 0 auto;
+    display: flex;
+}
+
+.faq-container p {
+    margin: 0 auto;
+    word-break: keep-all;
+    font-size: 17px;
+    color: #626262;
+    line-height: 22px;
+    padding: 0 10px 10px 0;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.faq-main-text h5 {
+    text-align: center;
+    color: rgb(11, 181, 211);
+    margin: 30px auto;
+    font-size: 4vw;
+    word-break: keep-all;
+    text-align: left;
+    padding-bottom: 2rem;
+    font-weight: 100;
+}
+
+.how-it-works h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 6vw;
+    font-weight: 600;
+    word-break: keep-all;
+    text-align: left;
+}
+
+
+
+.how-it-works {
+    margin: 0 ;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 2rem;
+    margin-right: 17px;
+    width: 40%;
+}
+
+.carousel-container {
+    width: 100%;
+    
+    background-image: url('./images/racebackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(11, 181, 211);
+    font-size: xx-large;
+}
+
+.carousel-heading a:visited {
+    color: rgb(11, 181, 211);
+}
+
+.carousel-overlay {
+    width: 100%;
+    padding:5% 0 10% 0;
+    background-color: rgba(255, 255, 255, 0.941);
+}
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-heading {
+    margin: 0 0 50px 0
+}
+
+.cell {
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cell img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mobile-carousel {
+    display: none;
+}
+
+
+.before-and-after-container {
+    display: inline-block;
+
+}
+
+.before-and-after-container img {
+    height: 100px;
+    width: 200px;
+}
+
+
+.swiper-container {
+    max-width: 600px;
+
+}
+.swiper.wrapper {
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 90%;
+    height: auto;
+    max-height: 550px;
+    max-width: 950px;
+    box-shadow: 0px 0px 14px -2px;
+    margin-bottom: 25px;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+.video-wrapper {
+    position: relative;
+    text-align: center;
+    background: url("background-5.JPG") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.video-wrapper H3 {
+    padding: 20px;
+    word-break: break-all;
+}
+
+video {
+    margin: auto;
+    width: 650px;
+    height: 350px;
+    box-shadow: 0px 0px 14px -2px;
+    margin-bottom: 25px;
+}
+
+.video-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+
+.map-section {
+    width: 100%;
+}
+
+.map-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background: url('./images/mercedes-background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 14px -2px;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.653);
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.footer-overlay h3 {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    word-break: keep-all;
+    font-size: 6vh;
+    justify-content: space-evenly;
+    
+}
+
+.my-icons {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+.copyright {
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-small;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #777272;
+}
+
+.contact-container {
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.contact-us {
+    margin: 40px auto;
+    text-align: left;
+    padding: 1rem;
+}
+
+.contact-mobile {
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+
+.contact-el {
+    margin: 6px 0;
+}
+
+.material-icons {
+    color: rgb(182, 182, 182);
+    margin: 0;
+    padding: 20px auto 50px auto;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+color: rgb(0, 0, 0);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(0, 0, 0);
+background-color: transparent;
+text-decoration: underline;
+text-decoration: none;
+}
+
+a:active {
+color: rgb(0, 0, 0);
+background-color: transparent;
+text-decoration: underline;
+}
+
+
+.footer a:visited, .footer a:link {
+    color: white;
+    font-size: small;
+}
+
+
+/*//////////////////////////// Responsive Dedign ////////////////////////////////////// */
+
+
+@media only screen and (max-width: 600px) {
+    .favicon {
+        height: 25px;
+        width: 25px;
+    }
+    .header-overlay h2 {
+        font-size: xx-small;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .video-overlay {
+        background: rgb(245, 245, 245);
+    }
+
+    .about-work-container img {
+        display: none;
+    }
+    .about-work {
+        width: 100%;
+    }
+
+    .contact-us {
+        text-align: center;
+        width: 100%;
+    }
+    .contact-inner {
+        display: flex;
+    }
+
+    .contact-el {
+        width: 25%;
+    }
+
+    .contact-mobile {
+        display: flex;
+    }
+
+    .contact-desktop {
+       display: none;
+    }
+
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        display: none;
+    }
+
+    
+    .faq-overlay {
+        width: 100%;
+        padding: 30px;
+    }
+    .heading-text, .banner-sub-container-heading h5 {
+        font-size: 2rem;
+    }
+    
+    .faq {
+        display: block;
+        width: 100%;
+    }
+    .footer-overlay {
+        width: 100%;
+        padding: 2rem 10px;
+    }
+
+    
+
+    .gallery-image {
+        display: none;
+    }
+    .gallery-ba {
+        display: block;
+    }
+    .how-it-works {
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    .faq-overlay {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .mobile-carousel {
+        display: flex;
+    }
+    
+    .carousel {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px){
+    .header-overlay h3 {
+        font-size: 4vh;
+    }
+
+    .faq-container h3 {
+        font-size: 4vh;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 800px){
+    .about-us-text-container {
+        width: 60%;
+    }
+
+    .why-choose-container {
+        
+        background-position: top;
+    }
+
+    .nav-section a {
+        font-size: 2vh;
+    }
+
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .header-container {
+        background-attachment: fixed;
+    }
+
+    .header-overlay h3 {
+        font-size: 6vh;
+    }
+    .banner-sub-container {
+        display: flex;
+    }
+    
+    .footer-overlay h3 {
+        font-size: 8vh;
+    }
+   
+    
+    
+    .why-img {
+        margin: 4px auto;
+    }
+
+    .why-choose-container h3 {
+        font-weight: 100;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1114px){
+    
+    .why-choose-overlay {
+        padding-bottom: 6%;
+    }
+
+    .about-us-text-container h3 {
+        padding-top: 7%;
+    }
+    .about-us p {
+        padding-bottom: 7%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 250px){
+    
+    .logo-container {
+        display: grid;
+    }
+
+    .contact-container {
+        display: grid;
+    }
+}
+
