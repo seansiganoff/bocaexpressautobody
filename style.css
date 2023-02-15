@@ -105,9 +105,9 @@ body {
     font-size: 4vw;
     word-break: keep-all;
     text-align: left;
+    text-shadow: 1px 1px 30px rgba(139, 139, 139, 0.721);
+    letter-spacing: -1px;
 }
-
-
 
 .company-logo {
     margin: 0;
@@ -130,7 +130,6 @@ body {
     
 }
 
-
 .header-overlay h5 {
     margin: auto;
     padding: 3%;
@@ -138,7 +137,6 @@ body {
     font-weight: 100;
     font-size: 12px;
 }
-
 
 .about-us {
     margin: 0;
@@ -167,8 +165,6 @@ body {
     padding-bottom: 10%;
 }
 
-
-
 .logo-container {
     background-color: rgb(11, 181, 211);
     display: flex;
@@ -176,7 +172,6 @@ body {
     justify-content: space-evenly;
     
 }
-
 
 .logo-container img {
     height: 20vw;
@@ -187,12 +182,14 @@ body {
 }
 
 
+
+
 .services-section {
     display: block;
     justify-content: center;
     background-image: url('./images/mechanic-background.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 20% 50%;
     background-size: cover;
     flex-direction: row;
     flex-flow: wrap;
@@ -217,33 +214,19 @@ body {
 
 .services {
     display: block;
-    padding: 1rem;
-    color: rgb(66, 66, 66);
+    padding: 1rem 3rem;
+    color: rgb(63, 63, 63);
     line-height: 35px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.749);
+    margin: 20px 0;
+    border-radius: 50px;
+    border: 5px rgb(11, 181, 211) dotted;
 }
 
-.services-main-text {
-    font-weight: 600;
-    text-align: center;
-    color: rgb(11, 181, 211);
-    margin: 30px auto;
-    font-size: xxx-large;
-    word-break: keep-all;
-    text-align: left;
-    width: 80%;
+.services-overlay .heading-text {
+   width: 80%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -612,6 +595,13 @@ text-decoration: underline;
         margin: 3px;
     }
     
+    .services {
+        padding: 1rem;
+    }
+    .services p {
+        font-size: x-small;
+    }
+    
     
 }
 @media only screen and (max-width: 1000px){
@@ -619,18 +609,10 @@ text-decoration: underline;
         background: rgb(245, 245, 245);
     }
 
-    .services {
-        background-color: #f3f3f3;
-        width: 100%;
-        border-radius: 15px;
-        margin: 10px;
-    }
-
+    
     .services-section {
         background-image: none;
-        background-color: white;
     }
-
     
 
     .about-work-container img {
